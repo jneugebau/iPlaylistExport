@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE7420D228C8C7A000F81A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7420C228C8C7A000F81A9 /* AppDelegate.swift */; };
+		3CE7420F228C8C7A000F81A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7420E228C8C7A000F81A9 /* ViewController.swift */; };
+		3CE74212228C8C7A000F81A9 /* iPlaylistExport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CE74210228C8C7A000F81A9 /* iPlaylistExport.xcdatamodeld */; };
+		3CE74214228C8C7B000F81A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE74213228C8C7B000F81A9 /* Assets.xcassets */; };
+		3CE74217228C8C7B000F81A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE74215228C8C7B000F81A9 /* Main.storyboard */; };
+		3CE74223228C8C7B000F81A9 /* iPlaylistExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE74222228C8C7B000F81A9 /* iPlaylistExportTests.swift */; };
+		3CE7422E228C8C7C000F81A9 /* iPlaylistExportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7422D228C8C7C000F81A9 /* iPlaylistExportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CE7421F228C8C7B000F81A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE74201228C8C7A000F81A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE74208228C8C7A000F81A9;
+			remoteInfo = iPlaylistExport;
+		};
+		3CE7422A228C8C7C000F81A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE74201228C8C7A000F81A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE74208228C8C7A000F81A9;
+			remoteInfo = iPlaylistExport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CE74209228C8C7A000F81A9 /* iPlaylistExport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPlaylistExport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7420C228C8C7A000F81A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CE7420E228C8C7A000F81A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CE74211228C8C7A000F81A9 /* iPlaylistExport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPlaylistExport.xcdatamodel; sourceTree = "<group>"; };
+		3CE74213228C8C7B000F81A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE74216228C8C7B000F81A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CE74218228C8C7B000F81A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE74219228C8C7B000F81A9 /* iPlaylistExport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPlaylistExport.entitlements; sourceTree = "<group>"; };
+		3CE7421E228C8C7B000F81A9 /* iPlaylistExportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPlaylistExportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE74222228C8C7B000F81A9 /* iPlaylistExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPlaylistExportTests.swift; sourceTree = "<group>"; };
+		3CE74224228C8C7B000F81A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE74229228C8C7C000F81A9 /* iPlaylistExportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPlaylistExportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7422D228C8C7C000F81A9 /* iPlaylistExportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPlaylistExportUITests.swift; sourceTree = "<group>"; };
+		3CE7422F228C8C7C000F81A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE74206228C8C7A000F81A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7421B228C8C7B000F81A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE74226228C8C7C000F81A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE74200228C8C7A000F81A9 = {
+			isa = PBXGroup;
+			children = (
+				3CE7420B228C8C7A000F81A9 /* iPlaylistExport */,
+				3CE74221228C8C7B000F81A9 /* iPlaylistExportTests */,
+				3CE7422C228C8C7C000F81A9 /* iPlaylistExportUITests */,
+				3CE7420A228C8C7A000F81A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE7420A228C8C7A000F81A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE74209228C8C7A000F81A9 /* iPlaylistExport.app */,
+				3CE7421E228C8C7B000F81A9 /* iPlaylistExportTests.xctest */,
+				3CE74229228C8C7C000F81A9 /* iPlaylistExportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE7420B228C8C7A000F81A9 /* iPlaylistExport */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7420C228C8C7A000F81A9 /* AppDelegate.swift */,
+				3CE7420E228C8C7A000F81A9 /* ViewController.swift */,
+				3CE74213228C8C7B000F81A9 /* Assets.xcassets */,
+				3CE74215228C8C7B000F81A9 /* Main.storyboard */,
+				3CE74218228C8C7B000F81A9 /* Info.plist */,
+				3CE74219228C8C7B000F81A9 /* iPlaylistExport.entitlements */,
+				3CE74210228C8C7A000F81A9 /* iPlaylistExport.xcdatamodeld */,
+			);
+			path = iPlaylistExport;
+			sourceTree = "<group>";
+		};
+		3CE74221228C8C7B000F81A9 /* iPlaylistExportTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CE74222228C8C7B000F81A9 /* iPlaylistExportTests.swift */,
+				3CE74224228C8C7B000F81A9 /* Info.plist */,
+			);
+			path = iPlaylistExportTests;
+			sourceTree = "<group>";
+		};
+		3CE7422C228C8C7C000F81A9 /* iPlaylistExportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7422D228C8C7C000F81A9 /* iPlaylistExportUITests.swift */,
+				3CE7422F228C8C7C000F81A9 /* Info.plist */,
+			);
+			path = iPlaylistExportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE74208228C8C7A000F81A9 /* iPlaylistExport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE74232228C8C7C000F81A9 /* Build configuration list for PBXNativeTarget "iPlaylistExport" */;
+			buildPhases = (
+				3CE74205228C8C7A000F81A9 /* Sources */,
+				3CE74206228C8C7A000F81A9 /* Frameworks */,
+				3CE74207228C8C7A000F81A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPlaylistExport;
+			productName = iPlaylistExport;
+			productReference = 3CE74209228C8C7A000F81A9 /* iPlaylistExport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CE7421D228C8C7B000F81A9 /* iPlaylistExportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE74235228C8C7C000F81A9 /* Build configuration list for PBXNativeTarget "iPlaylistExportTests" */;
+			buildPhases = (
+				3CE7421A228C8C7B000F81A9 /* Sources */,
+				3CE7421B228C8C7B000F81A9 /* Frameworks */,
+				3CE7421C228C8C7B000F81A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE74220228C8C7B000F81A9 /* PBXTargetDependency */,
+			);
+			name = iPlaylistExportTests;
+			productName = iPlaylistExportTests;
+			productReference = 3CE7421E228C8C7B000F81A9 /* iPlaylistExportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CE74228228C8C7C000F81A9 /* iPlaylistExportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE74238228C8C7C000F81A9 /* Build configuration list for PBXNativeTarget "iPlaylistExportUITests" */;
+			buildPhases = (
+				3CE74225228C8C7C000F81A9 /* Sources */,
+				3CE74226228C8C7C000F81A9 /* Frameworks */,
+				3CE74227228C8C7C000F81A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE7422B228C8C7C000F81A9 /* PBXTargetDependency */,
+			);
+			name = iPlaylistExportUITests;
+			productName = iPlaylistExportUITests;
+			productReference = 3CE74229228C8C7C000F81A9 /* iPlaylistExportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE74201228C8C7A000F81A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Joerg Neugebauer";
+				TargetAttributes = {
+					3CE74208228C8C7A000F81A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3CE7421D228C8C7B000F81A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3CE74208228C8C7A000F81A9;
+					};
+					3CE74228228C8C7C000F81A9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3CE74208228C8C7A000F81A9;
+					};
+				};
+			};
+			buildConfigurationList = 3CE74204228C8C7A000F81A9 /* Build configuration list for PBXProject "iPlaylistExport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE74200228C8C7A000F81A9;
+			productRefGroup = 3CE7420A228C8C7A000F81A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE74208228C8C7A000F81A9 /* iPlaylistExport */,
+				3CE7421D228C8C7B000F81A9 /* iPlaylistExportTests */,
+				3CE74228228C8C7C000F81A9 /* iPlaylistExportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE74207228C8C7A000F81A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE74214228C8C7B000F81A9 /* Assets.xcassets in Resources */,
+				3CE74217228C8C7B000F81A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7421C228C8C7B000F81A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE74227228C8C7C000F81A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE74205228C8C7A000F81A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7420F228C8C7A000F81A9 /* ViewController.swift in Sources */,
+				3CE74212228C8C7A000F81A9 /* iPlaylistExport.xcdatamodeld in Sources */,
+				3CE7420D228C8C7A000F81A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7421A228C8C7B000F81A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE74223228C8C7B000F81A9 /* iPlaylistExportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE74225228C8C7C000F81A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7422E228C8C7C000F81A9 /* iPlaylistExportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CE74220228C8C7B000F81A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE74208228C8C7A000F81A9 /* iPlaylistExport */;
+			targetProxy = 3CE7421F228C8C7B000F81A9 /* PBXContainerItemProxy */;
+		};
+		3CE7422B228C8C7C000F81A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE74208228C8C7A000F81A9 /* iPlaylistExport */;
+			targetProxy = 3CE7422A228C8C7C000F81A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CE74215228C8C7B000F81A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE74216228C8C7B000F81A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CE74230228C8C7C000F81A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CE74231228C8C7C000F81A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CE74233228C8C7C000F81A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iPlaylistExport/iPlaylistExport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPlaylistExport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jn18dev.iPlaylistExport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3CE74234228C8C7C000F81A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iPlaylistExport/iPlaylistExport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPlaylistExport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jn18dev.iPlaylistExport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3CE74236228C8C7C000F81A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPlaylistExportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jn18dev.iPlaylistExportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPlaylistExport.app/Contents/MacOS/iPlaylistExport";
+			};
+			name = Debug;
+		};
+		3CE74237228C8C7C000F81A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPlaylistExportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jn18dev.iPlaylistExportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPlaylistExport.app/Contents/MacOS/iPlaylistExport";
+			};
+			name = Release;
+		};
+		3CE74239228C8C7C000F81A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPlaylistExportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jn18dev.iPlaylistExportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iPlaylistExport;
+			};
+			name = Debug;
+		};
+		3CE7423A228C8C7C000F81A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPlaylistExportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jn18dev.iPlaylistExportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iPlaylistExport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE74204228C8C7A000F81A9 /* Build configuration list for PBXProject "iPlaylistExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE74230228C8C7C000F81A9 /* Debug */,
+				3CE74231228C8C7C000F81A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE74232228C8C7C000F81A9 /* Build configuration list for PBXNativeTarget "iPlaylistExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE74233228C8C7C000F81A9 /* Debug */,
+				3CE74234228C8C7C000F81A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE74235228C8C7C000F81A9 /* Build configuration list for PBXNativeTarget "iPlaylistExportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE74236228C8C7C000F81A9 /* Debug */,
+				3CE74237228C8C7C000F81A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE74238228C8C7C000F81A9 /* Build configuration list for PBXNativeTarget "iPlaylistExportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE74239228C8C7C000F81A9 /* Debug */,
+				3CE7423A228C8C7C000F81A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3CE74210228C8C7A000F81A9 /* iPlaylistExport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3CE74211228C8C7A000F81A9 /* iPlaylistExport.xcdatamodel */,
+			);
+			currentVersion = 3CE74211228C8C7A000F81A9 /* iPlaylistExport.xcdatamodel */;
+			path = iPlaylistExport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3CE74201228C8C7A000F81A9 /* Project object */;
+}
