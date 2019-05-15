@@ -15,6 +15,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        NSApp.keyWindow?.minSize = NSSize(width: 800, height: 600)
+        NSApp.keyWindow?.title = "iPlaylistExport"
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
